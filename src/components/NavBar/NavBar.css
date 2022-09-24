@@ -1,0 +1,38 @@
+.navegation {
+    background-color: wheat;
+    width: 99%;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.list li a {
+    background-color: darkorange;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.list li a:hover {
+    background-color: green;
+    color: wheat;
+}
