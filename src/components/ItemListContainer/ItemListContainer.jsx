@@ -1,9 +1,10 @@
 import React from 'react';
+import "./ItemListContainer.css";
 
-export const ItemListContainer = () => {
+export const ItemListContainer = ({greeting}) => {
     return (
-        <div>
-           <h1>ItemListContainer</h1>
+        <div className='container-prod'>
+           {greeting}
         </div>
     )
 }
